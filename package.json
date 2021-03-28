@@ -1,0 +1,25 @@
+{
+  "name": "mocha-chai-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha || true",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesssd/mocha-chai.git"
+  },
+  "author": "James Dizon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesssd/mocha-chai/issues"
+  },
+  "homepage": "https://github.com/jamesssd/mocha-chai#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-asserttype": "^1.0.5",
+    "mocha": "^8.3.2"
+  }
+}
